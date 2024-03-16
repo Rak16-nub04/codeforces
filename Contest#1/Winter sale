@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int price;
+    float pp,dis;
+
+            scanf("%f %d",&dis,&price);
+
+            pp=price/(1-dis/100.00);
+    printf("%.2f\n",pp);
+
+
+}
